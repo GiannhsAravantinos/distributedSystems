@@ -38,10 +38,10 @@ pipenv install flask ( αν  εμφανιστεί μήνυμα κατά την �
    e.g for 5 nodes:
 
 
-      * `$ pipenv run python3.7 cli.py -p 5000 -a 5000 -l 1`
-      * `$ pipenv run python3.7 cli.py -p 5001 -a 5000 -l 2`
-      * `$ pipenv run python3.7 cli.py -p 5001 -a 5000 -l 3`
-      * `$ pipenv run python3.7 cli.py -p 5001 -a 5000 -l 4`
-      * `$ pipenv run python3.7 cli.py -p 5001 -a 5000 -l 5`
+      * `$ pipenv run python3.7 cli.py  1 5000`
+      * `$ pipenv run python3.7 cli.py  2 5001`
+      * `$ pipenv run python3.7 cli.py  3 5001`
+      * `$ pipenv run python3.7 cli.py  4 5001`
+      * `$ pipenv run python3.7 cli.py  5 5001`
 
  Note that the "python3.7" can be 3.6 depending on the python's version  installed on each computer.
